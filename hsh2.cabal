@@ -19,7 +19,7 @@ synopsis:            Complement for HSH package
 -- description:         
 
 -- URL for the project homepage or repository.
-homepage:            https://github.com/eccstartup
+homepage:            https://github.com/eccstartup/hsh2
 
 -- The license under which the package is released.
 license:             MIT
