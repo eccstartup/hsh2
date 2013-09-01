@@ -46,12 +46,17 @@ cabal-version:       >=1.8
 
 
 library
+
+  hs-source-dirs:    src
+  
   -- Modules exported by the library.
-  -- exposed-modules:     
-  HSH.Complement
+  exposed-modules:   HSH.Complement
+  --HSH.Complement.Utils
   -- Modules included in this library but not exported.
   -- other-modules:       
   
   -- Other library packages from which modules are imported.
   build-depends:     base ==4.6.*,
                      HSH  >=2.1.0
+
+  ghc-options:     -Wall
