@@ -16,7 +16,7 @@ version:             0.1.0.0
 synopsis:            Complement for HSH package
 
 -- A longer description of the package.
--- description:         
+description:         A fairly simple complement package for HSH.
 
 -- URL for the project homepage or repository.
 homepage:            https://github.com/eccstartup/hsh2
@@ -48,10 +48,10 @@ cabal-version:       >=1.8
 library
   -- Modules exported by the library.
   -- exposed-modules:     
-  
+  HSH.Complement
   -- Modules included in this library but not exported.
   -- other-modules:       
   
   -- Other library packages from which modules are imported.
-  build-depends:       base ==4.6.*
-  
+  build-depends:     base ==4.6.*,
+                     HSH  >=2.1.0
