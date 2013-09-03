@@ -3,5 +3,4 @@ before_install:
   - cabal update
 
 install:
-  - cabal build
   - cabal install
