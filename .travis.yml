@@ -1,9 +1,10 @@
 language: haskell
 before_install:
 #  - cabal update
-  - cabal info base
-  - cabal info HSH
+#  - cabal info base
+#  - cabal info HSH
+  - cabal install HSH
 
 install:
-  - cabal configure --disable-tests
+#  - cabal configure --disable-tests
   - cabal install
