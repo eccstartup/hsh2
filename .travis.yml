@@ -3,7 +3,7 @@ before_install:
 #  - cabal update
 #  - cabal info base
 #  - cabal info HSH
-  - cabal install HSH
+  - cabal install HSH-2.0.3
 
 install:
 #  - cabal configure --disable-tests
