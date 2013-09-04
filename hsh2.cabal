@@ -57,6 +57,7 @@ library
   
   -- Other library packages from which modules are imported.
   build-depends:     base 
-  #,HSH
+
+  --,HSH
 
   ghc-options:     -Wall
