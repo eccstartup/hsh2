@@ -1,5 +1,5 @@
 language: haskell
-before_install:
+#before_install:
 #  - cabal update
 #  - cabal info base
 #  - cabal info HSH
